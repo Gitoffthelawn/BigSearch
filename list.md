@@ -4,35 +4,35 @@
 
 ### Browser Extensions / Addons
 
-|                                                                                 | Browser addon                     | Use on web without install | Build-in engines | Categorize  engines | History reusing & managing | POST requests | Sync settings via browser server | Provide input box | User-custom engines | Use browser-installed engines | Search for selection |
-| ------------------------------------------------------------------------------- | --------------------------------- | -------------------------- | ---------------- | ------------------- | -------------------------- | ------------- | -------------------------------- | ----------------- | ------------------- | ----------------------------- | -------------------- |
-| **[Big Search](https://github.com/garywill/bigSearch)**                         | 🟢 Cross-browser (Firefox / .crx) | 🟢 Desktop / Mobile        | 🟢 50+           | 🟢                  | 🟢                         | 🟢            | 🟢                               | 🟢                | 🟢                  | 🟢                            | 🟢                   |
-| [Swift Selection Search](https://github.com/CanisLupus/swift-selection-search)  | 🟠 Firefox                        | ❌                          | 🟠 About 10-20   | ❌                   | ❌                          | ❌             | 🟢                               | 🟠                | 🟢                  | ❌                             | 🟢                   |
-| [Multi engine search](https://github.com/Javojav/Multi-engine-search)           | 🟠 Firefox                        | ❌                          | 🟠 -             | ❌                   | ❌                          | ❌             | -                                | 🟢                | ❌                   | 🟢                            | ?                    |
-| [Selection Search](https://github.com/Pitmairen/selection-search)               | 🟠Chrome                          | ❌                          | 🟠 <10           | ❌                   | ❌                          | 🟢            | 🟢                               | 🟢                | 🟢                  | ❌                             | 🟢                   |
-| [SelectionSK + SearchSK](https://bitbucket.org/ashemetov/selectionsk/wiki/Home) | 🟢 ?                              | ❌                          | 🟠 About 20-30   | ❌                   | ❌                          | ?             | ?                                | 🟢                | ?                   | ?                             | 🟢                   |
-| [ContextSearch web-ext](https://github.com/ssborbis/ContextSearch-web-ext)      | 🟢 Cross-browser                  | ❌                          | 🟠 About 10-20   | ❌                   | ❌                          | 🟢            | ?                                | 🟢                | 🟢                  | 🟢                            | 🟢                   |
-| [Context Menu Search](https://github.com/w3lifer/crx-context-menu-search)       | 🟠 Chrome                         | ❌                          | 🟠 <10           | ❌                   | ❌                          | ❌             | ?                                | ❌                 | 🟢                  | ❌                             | 🟢                   |
-| [Quick search lite](https://github.com/hasanuzzamanbe/quick-search-extension)   | 🟠 Chrome                         | ❌                          | 🟠 <10           | ❌                   | ❌                          | ❌             | ?                                | 🟢                | ❌                   | ❌                             | 🟢                   |
+|                                                                                 | Browser addon                     | Web app             | Build-in engines | Categorize  engines | History reusing & managing | HTTP POST | Websites showing results by Ajax             | Sync settings by browser | Provide input box | User-custom engines | Use browser-installed engines | Search for selection |
+| ------------------------------------------------------------------------------- | --------------------------------- | ------------------- | ---------------- | ------------------- | -------------------------- | --------- | -------------------------------------------- | ------------------------ | ----------------- | ------------------- | ----------------------------- | -------------------- |
+| **[Big Search](https://github.com/garywill/BigSearch)**                         | 🟢 Cross-browser (Firefox / .crx) | 🟢 Desktop / Mobile | 🟢 50+           | 🟢                  | 🟢                         | 🟢        | 🟢 User edits inputbox/button  querySelector | 🟢                       | 🟢                | 🟢                  | 🟢                            | 🟢                   |
+| [Swift Selection Search](https://github.com/CanisLupus/swift-selection-search)  | 🟠 Firefox                        | ❌                   | 🟠 About 10-20   | ❌                   | ❌                          | ❌         | ❌                                            | 🟢                       | 🟠                | 🟢                  | ❌                             | 🟢                   |
+| [Multi engine search](https://github.com/Javojav/Multi-engine-search)           | 🟠 Firefox                        | ❌                   | -                | ❌                   | ❌                          | ❌         | ❌                                            | -                        | 🟢                | ❌                   | 🟢                            | ?                    |
+| [Selection Search](https://github.com/Pitmairen/selection-search)               | 🟠Chrome                          | ❌                   | 🟠 <10           | ❌                   | ❌                          | 🟢        | ❌                                            | 🟢                       | 🟢                | 🟢                  | ❌                             | 🟢                   |
+| [SelectionSK + SearchSK](https://bitbucket.org/ashemetov/selectionsk/wiki/Home) | 🟢 ?                              | ❌                   | 🟠 About 20-30   | ❌                   | ❌                          | ?         | ❌                                            | ?                        | 🟢                | ?                   | ?                             | 🟢                   |
+| [ContextSearch web-ext](https://github.com/ssborbis/ContextSearch-web-ext)      | 🟢 Cross-browser                  | ❌                   | 🟠 About 10-20   | ❌                   | ❌                          | 🟢        | 🟠 Users writes raw JS                       | ?                        | 🟢                | 🟢                  | 🟢                            | 🟢                   |
+| [Context Menu Search](https://github.com/w3lifer/crx-context-menu-search)       | 🟠 Chrome                         | ❌                   | 🟠 <10           | ❌                   | ❌                          | ❌         | ❌                                            | ?                        | ❌                 | 🟢                  | ❌                             | 🟢                   |
+| [Quick search lite](https://github.com/hasanuzzamanbe/quick-search-extension)   | 🟠 Chrome                         | ❌                   | 🟠 <10           | ❌                   | ❌                          | ❌         | ❌                                            | ?                        | 🟢                | ❌                   | ❌                             | 🟢                   |
 
 ### Command line tools in terminal
 
 - [Surfraw](https://gitlab.com/surfraw/Surfraw)
 - [zquestz/s](https://github.com/zquestz/s)
 
-## List of build-in search engines in [Big Search](https://github.com/garywill/bigSearch)
+## List of build-in search engines in [Big Search](https://github.com/garywill/BigSearch)
 
 This is the current list of engines. We are keeping adding ~
 
-> Welcome open PR to [source code](https://github.com/garywill/bigSearch) if you want to add a search engine to Big Search
+> Big Search supports user adding their private engines. Welcome open PR to [source code](https://github.com/garywill/BigSearch) if you want to add search engine to make it build-in
 
 ### Global
 
 - **🌐General**: Bing | Google | Yahoo Search | Yandex | DuckDuckGo | StartPage | Ecosia | Qwant | Findx | MetaGer | Swisscows
-- **💻Programing**: Github | MDN | StackExchange | AlternativeTo | Chocolatey | Scoop Search Apps | Cygwin packages | Homebrew | Docker Hub | Flathub | Snapcraft | NixOS | GNU Guix packages
+- **💻Programing**: Github | MDN | Chrome Extension API | StackExchange | AlternativeTo | Chocolatey | Scoop Search Apps | Cygwin packages | Homebrew | Docker Hub | Flathub | Snapcraft | NixOS | GNU Guix packages
 - **📱Mobile Apps**: Google Play Apps | F-Droid | iTunes Apps (Google) | IzzyOnDroid F-Droid | APKDL | APKMirror | APK-DL | APKPure | Freeapk | AppsApk | Android Picks | AndroidAPKsFree
 - **📺Multimedia**: Google | Youtube
-- **🔠Translates**: Cambridge Dictionary | Google Translate
+- **🔠Translates**: DeepL Translate | Cambridge Dictionary | Google Translate
 - **📑Knowledge**: Web of Science | EI | IEEE Xplore | Google Scholar | Bing Academic | Wkipedia
 - **🛒Shopping**: Amazon | TMall
 
